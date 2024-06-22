@@ -1,7 +1,7 @@
 file - structure
 
 vflyorions-test/
-├── node_modules/
+|- node_modules/
 ├── public/
 │   ├── Productimage/
 │   │   ├── All product images
