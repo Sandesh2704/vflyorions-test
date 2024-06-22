@@ -41,7 +41,7 @@ export default function ProductDetails({ item }) {
 
                 <div className='flex- flex-col'>
                     <div className='flex justify-center'>
-                        <Image src={image} alt={name} width={300} height={300} className=' max-w-[60%] md:max-w-[45%] lg:max-w-[60%]  min-w-[60%] md:min-w-[45%] lg:min-w-[60%] h-auto ' priority />
+                        <Image src={image} alt={name} width={300} height={300} className=' max-w-[64%] md:max-w-[45%] lg:max-w-[60%]  min-w-[64%] md:min-w-[45%] lg:min-w-[60%] h-auto ' priority />
                     </div>
 
                     <div className='flex flex-col py-1  grid mt-10 gap-3 grid-cols-2 md:mx-5'>

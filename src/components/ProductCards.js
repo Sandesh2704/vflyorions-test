@@ -37,8 +37,8 @@ export default function ProductCards({ item }) {
     return (
         <div>
             <div className="w-full h-full bg-gray-100 border  rounded-lg shadow ">
-                <Link href={`/products/${id}`} className='flex justify-center w-full h-64 lg:h-96 items-center'>
-                    <Image src={image} alt="productimage" width={400} height={400} className='max-h-64 lg:max-h-96 bg-gray-100 rounded-t-lg' />
+                <Link href={`/products/${id}`} className='flex justify-center w-full h-80 lg:h-96 items-center'>
+                    <Image src={image} alt="productimage" width={400} height={400} className='max-h-80 lg:max-h-96 bg-gray-100 rounded-t-lg' />
                 </Link>
                 <div className="px-2 md:px-3 lg:px-5 py-3 ">
                     <Link href={`/products/${id}`} className='hover:underline underline-offset-4'>
@@ -57,7 +57,7 @@ export default function ProductCards({ item }) {
                             {Productrating}.0
                         </span>
                     </div>
-                    <div className='mt-2 mb-5 text-sm lg:text-base'>{description.slice(0, 250)}</div>
+                    <div className='mt-2 mb-5 text-xs lg:text-base'>{description.slice(0, 250)}</div>
                     <div className="flex items-center justify-between">
                         <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-black">${price}</span>
                         <div className='flex items-center gap-2  lg:gap-4'>
