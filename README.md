@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+file - structure
 
-## Getting Started
+vflyorions-test/
+├── node_modules/
+├── public/
+│   ├── Productimage/
+│   │   ├── All product images
+│   ├── ProductData.json
+├── src/
+│   ├── app/
+│   │   ├── cartitem/
+│   │   │   └── page.js
+│   │   ├── products/
+│   │   │   └── [id]/
+│   │   │       └── page.js
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   ├── page.js
+│   ├── components/
+│   │   ├── Footer.js
+│   │   ├── Navbar.js
+│   │   ├── ProductCards.js
+│   │   ├── ProductDetails.js
+│   ├── context/
+│   │   └── Dataprovider.js
+├── package.json
+├── README.md
+└── ...
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+E-commerce Product Page
+Description
+This project is a custom e-commerce product page built using Next.js. The page features a seamless user experience, responsive design, and interactive elements including a hero section, detailed product information, user reviews, recommended products carousel, and a sticky add-to-cart button.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features
+ - Hero Section: Displays the product image, name, price, and a brief description.
+ - Detailed Product Information: Specifications, features, and benefits of the product.
+ - User Reviews and Ratings: Section for users to leave and view reviews.
+ - Recommended Products: Carousel or grid display of recommended products.
+ - Sticky Add-to-Cart Button: Follows the user as they scroll.
+ - Responsive Design: Optimized for mobile, tablet, and desktop devices.
+ - Review Form: Allows users to submit product reviews.
+ - Add to Cart and Remove from Cart Buttons: For managing items in the cart.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Components
+ - Footer.js: Footer section of the page.
+ - Navbar.js: Site navigation.
+ - ProductCards.js: Displays product information in a card format.
+ - ProductDetails.js: Shows detailed product information.
+   
+Pages
+ - Homepage (src/app/page.js): Displays hero section, detailed product information, user reviews, and recommended products.
+ - Cart Item Page (src/app/cartitem/page.js): Shows items in the cart with add and remove functionality.
+ - Product Details Page (src/app/products/[id]/page.js): Shows detailed information for a selected product.
+   
+Context
+ - Dataprovider.js: Provides data to all pages and components.
