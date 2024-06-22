@@ -1,7 +1,6 @@
 'use client'
 import { useState} from 'react'
 import Image from 'next/image'
-import img from '../../public/Productimage/airboads.webp'
 import { FaStar } from "react-icons/fa";
 import Link from 'next/link';
 import { useCart } from 'src/context/Dataprovider';
@@ -37,12 +36,12 @@ export default function ProductCards({ item }) {
     const maxRating = 5;
     return (
         <div>
-            <Link href={`/products/${id}`} className="w-full h-full bg-gray-100 border  rounded-lg shadow ">
-                <div className='flex justify-center w-full h-64 lg:h-96 items-center'>
+            <div className="w-full h-full bg-gray-100 border  rounded-lg shadow ">
+                <Link href={`/products/${id}`} className='flex justify-center w-full h-64 lg:h-96 items-center'>
                     <Image src={image} alt="productimage" width={400} height={400} className='max-h-64 lg:max-h-96 bg-gray-100 rounded-t-lg' />
-                </div>
+                </Link>
                 <div className="px-2 md:px-3 lg:px-5 py-3 ">
-                    <Link href={`/products/${id}`}>
+                    <Link href={`/products/${id}`} className='hover:underline underline-offset-4'>
                         <h5 className="text-base  md:text-lg lg:text-xl font-semibold tracking-tight text-black ">{name}</h5>
                     </Link>
                     <div className="flex items-center my-2">
@@ -81,7 +80,7 @@ export default function ProductCards({ item }) {
                         </div>
                     </div>
                 </div>
-            </Link>
+            </div>
         </div>
     )
 }
