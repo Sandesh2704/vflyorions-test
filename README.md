@@ -50,6 +50,7 @@ Components
  - Navbar.js: Site navigation.
  - ProductCards.js: Displays product information in a card format.
  - ProductDetails.js: Shows detailed product information.
+ - Dataprovider.js: Context component providing data to all pages and components
    
 Pages
  - Homepage (src/app/page.js): Displays hero section, detailed product information, user reviews, and recommended products.
