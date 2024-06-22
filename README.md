@@ -31,7 +31,7 @@ vflyorions-test/
 
 E-commerce Product Page
 Description
-This project is a custom e-commerce product page built using Next.js. The page features a seamless user experience, responsive design, and interactive elements including a hero section, detailed product information, user reviews, recommended products carousel, and a sticky add-to-cart button.
+This project is a custom e-commerce product page built using Next.js. The page features a seamless user experience, responsive design, and interactive elements including a hero section, detailed product information, user reviews,  and a sticky add-to-cart button.
 
 Features
  - Hero Section: Displays the product image, name, price, and a brief description.
