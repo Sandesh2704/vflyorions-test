@@ -1,0 +1,375 @@
+
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "Productrating": 4,
+    "description": "Experience the ultimate in precision and comfort with our Wireless Mouse. Designed for efficiency and ease, this mouse combines ergonomic excellence with long-lasting reliability. Whether you're navigating spreadsheets, editing documents, or gaming, the Wireless Mouse ensures smooth and accurate performance every time. Featuring Bluetooth connectivity for seamless pairing with your devices and boasting a sleek black finish, it's the perfect companion for your computing needs.",
+    "image": "/Productimage/wirelessmouse.webp",
+    "specifications": {
+      "batteryLife": "2 years",
+      "connectivity": "Bluetooth",
+      "color": "Black"
+    },
+    "features": [
+      "Ergonomic design",
+      "Long battery life",
+      "High precision"
+    ],
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 4,
+        "comment": "Great mouse for everyday use!"
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 5,
+        "comment": "Excellent battery life and comfort."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 89.99,
+    "Productrating": 5,
+    "description": "Elevate your typing experience with our Mechanical Keyboard. Engineered for durability and performance, this keyboard features Cherry MX switches that provide satisfying tactile feedback and exceptional responsiveness. Customize your workspace with vibrant RGB backlighting, allowing you to set the mood and enhance productivity in any environment. Its ergonomic design ensures comfort during extended typing sessions, making it ideal for professionals and gamers alike.",
+    "image": "/Productimage/keyborad.webp",
+    "specifications": {
+      "switchType": "Cherry MX",
+      "backlighting": "RGB",
+      "color": "Black"
+    },
+    "features": [
+      "Customizable RGB lighting",
+      "Durable switches",
+      "Ergonomic design"
+    ],
+    "reviews": [
+      {
+        "user": "Alice Johnson",
+        "rating": 5,
+        "comment": "Best keyboard I've ever used!"
+      },
+      {
+        "user": "Bob Lee",
+        "rating": 4,
+        "comment": "Great performance, but a bit loud."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gaming Headset",
+    "price": 69.99,
+    "Productrating": 4,
+    "description": "Immerse yourself in the world of gaming with our Gaming Headset. Designed for discerning gamers, this headset delivers crystal-clear audio and deep, resonant bass. Its noise-canceling microphone ensures clear communication with teammates, while the plush ear cushions provide comfort during long gaming sessions. Compatible with all major gaming platforms, including PC, Xbox, and PlayStation, the Gaming Headset is your ultimate gaming companion.",
+    "image": "/Productimage/gaminghandset.webp",
+    "specifications": {
+      "microphone": "Noise-canceling",
+      "compatibility": "PC, Xbox, PlayStation",
+      "color": "Black/Red"
+    },
+    "features": [
+      "High-quality audio",
+      "Noise-canceling microphone",
+      "Comfortable fit"
+    ],
+    "reviews": [
+      {
+        "user": "Sam Williams",
+        "rating": 5,
+        "comment": "Clear sound and very comfortable!"
+      },
+      {
+        "user": "Emily Brown",
+        "rating": 4,
+        "comment": "Great headset for gaming, fits well."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Gaming Mouse",
+    "price": 39.99,
+    "Productrating": 5,
+    "description": "Gain a competitive edge with our Gaming Mouse. Engineered for precision and speed, this mouse features customizable DPI settings that allow you to fine-tune sensitivity for optimal gaming performance. Its ergonomic design ensures comfort during intense gaming sessions, while the programmable buttons provide quick access to essential commands. Backlit with vibrant RGB lighting, the Gaming Mouse adds flair to your gaming setup and enhances immersion in every game.",
+    "image": "/Productimage/gamingmouse.webp",
+    "specifications": {
+      "dpi": "Adjustable",
+      "buttons": "Programmable",
+      "color": "Black"
+    },
+    "features": [
+      "Customizable DPI settings",
+      "Ergonomic design",
+      "RGB backlighting"
+    ],
+    "reviews": [
+      {
+        "user": "Michael Clark",
+        "rating": 4,
+        "comment": "Great mouse, very responsive!"
+      },
+      {
+        "user": "Sophia Rodriguez",
+        "rating": 5,
+        "comment": "Love the customizable lighting!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "UltraWide Monitor",
+    "price": 499.99,
+    "Productrating": 4,
+    "description": "Experience unparalleled visual immersion with our UltraWide Monitor. Boasting a cinematic 21:9 aspect ratio and stunning 4K resolution, this monitor delivers crystal-clear images and vibrant colors that bring your content to life. Ideal for multitasking and gaming, it offers a wide field of view that enhances productivity and enhances gaming realism. Featuring advanced connectivity options and ergonomic design, the UltraWide Monitor is a must-have for professionals and enthusiasts alike.",
+    "image": "/Productimage/businessMonitor.webp",
+    "specifications": {
+      "resolution": "4K",
+      "aspectRatio": "21:9",
+      "color": "Black/Silver"
+    },
+    "features": [
+      "Immersive 21:9 aspect ratio",
+      "Crisp 4K resolution",
+      "Advanced connectivity"
+    ],
+    "reviews": [
+      {
+        "user": "David White",
+        "rating": 5,
+        "comment": "Amazing monitor for work and gaming!"
+      },
+      {
+        "user": "Linda Green",
+        "rating": 4,
+        "comment": "Great colors and wide screen!"
+      }
+    ]
+  },
+    {
+      "id": 6,
+      "name": "Smartphone",
+      "price": 699.99,
+      "Productrating": 5,
+      "description": "Stay connected and productive with our latest Smartphone. Featuring a sleek design and cutting-edge technology, this smartphone offers a vibrant AMOLED display and a powerful processor for seamless multitasking. Capture stunning photos with its high-resolution camera and enjoy all-day battery life. With advanced security features and fast charging capabilities, our Smartphone is perfect for work and play.",
+      "image": "/Productimage/mobile.webp",
+      "specifications": {
+        "display": "AMOLED",
+        "processor": "Octa-core",
+        "camera": "High-resolution",
+        "batteryLife": "All-day",
+        "color": "Various"
+      },
+      "features": [
+        "Sleek design",
+        "High-resolution display",
+        "Advanced security features"
+      ],
+      "reviews": [
+        {
+          "user": "Alexandra Brown",
+          "rating": 5,
+          "comment": "Great phone with amazing camera quality!"
+        },
+        {
+          "user": "Michael Johnson",
+          "rating": 4,
+          "comment": "Fast and responsive, but battery could be better."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Fitness Tracker",
+      "price": 99.99,
+      "Productrating": 4,
+      "description": "Track your fitness goals with precision using our Fitness Tracker. Equipped with advanced sensors, this device monitors your heart rate, steps, and sleep patterns to help you stay on top of your health. Its sleek and lightweight design ensures comfort throughout the day, while the companion app provides insights and personalized recommendations. With long battery life and water resistance, the Fitness Tracker is your perfect workout companion.",
+      "image": "/Productimage/fitnesstacker.webp",
+      "specifications": {
+        "sensors": "Heart rate, accelerometer",
+        "tracking": "Steps, sleep",
+        "batteryLife": "Long-lasting",
+        "waterResistance": "Yes",
+        "color": "Various"
+      },
+      "features": [
+        "Advanced fitness tracking",
+        "Sleek design",
+        "Companion app"
+      ],
+      "reviews": [
+        {
+          "user": "Sophie Williams",
+          "rating": 4,
+          "comment": "Great for tracking workouts and sleep!"
+        },
+        {
+          "user": "David Miller",
+          "rating": 5,
+          "comment": "Accurate readings and comfortable to wear."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Portable Bluetooth Speaker",
+      "price": 49.99,
+      "Productrating": 4,
+      "description": "Enjoy powerful sound wherever you go with our Portable Bluetooth Speaker. Featuring deep bass and clear highs, this speaker delivers impressive audio performance in a compact and lightweight design. Pair effortlessly with your smartphone or tablet via Bluetooth and stream your favorite music for hours on end. With a built-in microphone for hands-free calls and long-lasting battery life, it's perfect for parties, travel, and outdoor adventures.",
+      "image": "/Productimage/blutoothspeaker.webp",
+      "specifications": {
+        "connectivity": "Bluetooth",
+        "sound": "High-quality",
+        "batteryLife": "Long-lasting",
+        "color": "Various"
+      },
+      "features": [
+        "Portable and lightweight",
+        "Deep bass",
+        "Built-in microphone"
+      ],
+      "reviews": [
+        {
+          "user": "Emma Davis",
+          "rating": 5,
+          "comment": "Excellent sound quality for its size!"
+        },
+        {
+          "user": "Daniel Wilson",
+          "rating": 4,
+          "comment": "Great speaker, easy to connect and use."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Digital Camera",
+      "price": 499.99,
+      "Productrating": 5,
+      "description": "Capture life's moments with clarity and precision using our Digital Camera. Equipped with a high-resolution sensor and advanced image processing technology, this camera delivers stunning photos and 4K videos. Its intuitive controls and ergonomic design ensure ease of use, while a range of shooting modes and effects allow for creative expression. With built-in Wi-Fi connectivity for instant sharing and a durable build, our Digital Camera is your perfect companion for photography enthusiasts.",
+      "image": "/Productimage/digitalcamera.webp",
+      "specifications": {
+        "resolution": "High-resolution sensor",
+        "video": "4K",
+        "connectivity": "Wi-Fi",
+        "color": "Black"
+      },
+      "features": [
+        "High-resolution photos",
+        "4K video recording",
+        "Built-in Wi-Fi"
+      ],
+      "reviews": [
+        {
+          "user": "Olivia Thompson",
+          "rating": 5,
+          "comment": "Fantastic camera, captures incredible detail!"
+        },
+        {
+          "user": "William Garcia",
+          "rating": 4,
+          "comment": "Great for both photos and videos."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Wireless Earbuds",
+      "price": 79.99,
+      "Productrating": 5,
+      "description": "Experience wireless freedom with our Wireless Earbuds. Featuring premium sound quality and noise-canceling technology, these earbuds deliver immersive audio for music and calls. Their ergonomic design ensures a secure and comfortable fit, while touch controls allow for easy navigation and voice assistant access. With long battery life and a portable charging case, our Wireless Earbuds are your perfect companion for on-the-go listening.",
+      "image": "/Productimage/airboads.webp",
+      "specifications": {
+        "sound": "Premium quality",
+        "noiseCancellation": "Active noise-canceling",
+        "batteryLife": "Long-lasting",
+        "color": "Various"
+      },
+      "features": [
+        "Ergonomic design",
+        "Touch controls",
+        "Portable charging case"
+      ],
+      "reviews": [
+        {
+          "user": "Jack Roberts",
+          "rating": 4,
+          "comment": "Great sound quality and comfortable fit!"
+        },
+        {
+          "user": "Sophia Martinez",
+          "rating": 5,
+          "comment": "Excellent noise cancellation, perfect for travel."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Robot Vacuum Cleaner",
+      "price": 299.99,
+      "Productrating": 5,
+      "description": "Keep your home clean effortlessly with our Robot Vacuum Cleaner. Equipped with intelligent navigation and powerful suction, this vacuum cleans carpets, hardwood floors, and tiles with ease. Schedule cleaning sessions via your smartphone and let the robot vacuum do the work while you relax. With multiple cleaning modes, anti-drop sensors, and a slim design to reach under furniture, it's the ultimate smart home cleaning solution.",
+      "image": "/Productimage/valumcleaner.webp",
+      "specifications": {
+        "navigation": "Intelligent",
+        "suctionPower": "Powerful",
+        "cleaningModes": "Multiple",
+        "smartFeatures": "Smartphone control",
+        "color": "Various"
+      },
+      "features": [
+        "Automated cleaning",
+        "Schedule cleaning sessions",
+        "Slim design for under furniture"
+      ],
+      "reviews": [
+        {
+          "user": "Sophie Walker",
+          "rating": 5,
+          "comment": "Makes cleaning so much easier!"
+        },
+        {
+          "user": "Jacob Brown",
+          "rating": 4,
+          "comment": "Great for keeping my floors clean daily."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Smart Watch",
+      "price": 199.99,
+      "Productrating": 4,
+      "description": "Stay connected and track your fitness goals with our Smart Watch. Featuring a vibrant touchscreen display and customizable watch faces, this smartwatch offers heart rate monitoring, GPS tracking, and notifications for calls and messages. Its water-resistant design and long battery life make it perfect for all-day wear, whether you're exercising, working, or relaxing. Sync with your smartphone for seamless integration and stay on top of your day.",
+      "image": "/Productimage/smartwatch.webp",
+      "specifications": {
+        "display": "Touchscreen",
+        "tracking": "Heart rate, GPS",
+        "notifications": "Calls, messages",
+        "batteryLife": "Long-lasting",
+        "color": "Various"
+      },
+      "features": [
+        "Fitness tracking",
+        "Customizable watch faces",
+        "Water-resistant design"
+      ],
+      "reviews": [
+        {
+          "user": "Lucas Scott",
+          "rating": 5,
+          "comment": "Great smartwatch, accurate tracking!"
+        },
+        {
+          "user": "Emma White",
+          "rating": 4,
+          "comment": "Very stylish and functional."
+        }
+      ]
+    }
+  ]
+
