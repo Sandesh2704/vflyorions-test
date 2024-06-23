@@ -33,14 +33,14 @@ export default function ProductCards({ item }) {
 
     const maxRating = 5;
     return (
-        <div>
-            <div className="w-full h-full border bg-white rounded-lg shadow ">
+        <>
+            <div className="w-full h-full border bg-white  shadow ">
                 <Link href={`/products/${id}`} className='flex justify-center w-full   max-h-52 md:max-h-64 lg:max-h-80 min-h-52 md:min-h-64 lg:min-h-80 items-center'>
                     <Image src={image} alt="productimage" width={400} height={400} className=' max-h-52 md:max-h-64 lg:max-h-80  rounded-t-lg  p-4' />
                 </Link>
                 <div className="px-2 md:px-2 lg:px-3 py-3 ">
                     <Link href={`/products/${id}`} className='hover:underline underline-offset-4'>
-                        <h5 className="text-base  md:text-lg lg:text-xl font-semibold tracking-tight text-black ">{name}</h5>
+                        <h5 className="text-sm  md:text-base lg:text-lg font-semibold tracking-tight text-black ">{name}</h5>
                     </Link>
                     <div className="flex items-center my-1">
                         <div className="flex items-center space-x-1 rtl:space-x-reverse">
@@ -55,9 +55,9 @@ export default function ProductCards({ item }) {
                             {Productrating}.0
                         </span>
                     </div>
-                    <div className='mt-2 mb-2 md:mb-5 text-xs lg:text-xs text-slate-500'>{description.slice(0, 100)}</div>
+                    <div className='mt-2 mb-2 md:mb-5 text-xs  text-slate-500'>{description.slice(0, 100)}</div>
                     <div className="flex flex-col md:flex-row md:items-center justify-between">
-                        <span className="text-lg md:text-2xl lg:text-2xl font-semibold text-black mb-3 md:mb-0">${price}</span>
+                        <span className="text-base md:text-lg lg:text-2xl font-semibold text-black mb-3 md:mb-0">${price}</span>
                         <div className='flex items-center gap-2 text-xs  lg:gap-4'>
                             {isInCart ? (
                                 <button
@@ -78,7 +78,7 @@ export default function ProductCards({ item }) {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

@@ -21,12 +21,12 @@ export default function Navbar() {
   const { countCart } = useCart();
 
   const Categories = [
-    // {title: 'Electronics',  image: electronic},
+    {title: 'Electronics',  image: electronic},
     {title: 'Books',  image: books},
     // {title: 'Furniture',  image: furniture},
     {title: 'Fashion',  image: fashionmodels},
     {title: 'Pet Supplies',  image: petsupplies},
-    {title: 'Sports & Fitness',  image: sports},
+    // {title: 'Sports',  image: sports},
     {title: 'Baby Products',  image: toy },
     {title: 'Personal Care',  image: personalcare },
     {title: 'Traval',  image: traval},
@@ -47,9 +47,9 @@ export default function Navbar() {
 
     <nav className='categories py-2 px-3 lg:px-36 flex gap-2 md:gap-5 bg-white m-2 lg:m-3 overflow-scroll'>
       {Categories.map((item, index) => (
-        <div key={index} className='flex flex-col px-2  lg:px-5 py-2 items-center '>
-        <Image src={item.image} height={300} width={200} className='h-10 w-10 md:h-16 md:w-16 lg:w-20 mb-2 md:mb-3' priority alt={item.image}/>
-        <p className='text-xs md:text-base font-semibold text-center hover:text-blue-700'>{item.title}</p>
+        <div key={index} className='flex flex-col px-2 md:px-3 lg:px-5 py-2 items-center '>
+        <Image src={item.image} height={300} width={200} className='h-12 w-12 md:h-16 md:w-16 lg:w-20 mb-2 md:mb-3' priority alt={item.image}/>
+        <p className='text-xs md:text-sm lg:text-base font-semibold text-center hover:text-blue-700'>{item.title}</p>
         </div>
       ))}
     </nav>

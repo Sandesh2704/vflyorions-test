@@ -3,6 +3,7 @@ import ProductCards from "../components/ProductCards";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useCart } from "src/context/Dataprovider";
+import Filter from "@/components/Filter";
 
 
 
@@ -24,13 +25,12 @@ export default function Home() {
     <>
       <div className="px-1 md:px-2 lg:px-3  mb-20">
         <h1 className="flex text-center justify-center mt-10 mb-5 text-xl md:text-2xl font-semibold">Product Available</h1>
-
-        <div className="grid grid-cols-1  lg:grid-cols-6 lg:gap-2">
-          <div className="h-full bg-pink-400 w-full border-2 hidden lg:flex bg-blue-100">
-
-          </div>
+        <div className="grid grid-cols-1  lg:grid-cols-6  gap-y-2 lg:gap-1.5">
+          <Filter/>
+          {/* <div className="h-full bg-pink-400 w-full border-2 hidden lg:flex bg-blue-100">
+          </div> */}
           <div className="md:col-span-4 lg:col-span-5">
-          <div className="  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-3 ">
+          <div className="  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 md:gap-1.5  ">
           {
             product.map((item, index) =>
               <ProductCards item={item}
