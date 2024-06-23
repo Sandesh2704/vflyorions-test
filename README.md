@@ -31,7 +31,9 @@ vflyorions-test/
 
 E-commerce Product Page
 Description
-This project is a custom e-commerce product page built using Next.js. The page features a seamless user experience, responsive design, and interactive elements including a hero section, detailed product information, user reviews, recommended products carousel, and a sticky add-to-cart button.
+This project is a custom e-commerce product page built using Next.js. The page features a seamless user experience, responsive design, and interactive elements including a hero section, detailed product information, user reviews,  and a sticky add-to-cart button.
+
+Setup - To set up and run the project locally, first, clone the repository using the command git clone https://github.com/yourusername/ecommerce-product-page.git. Navigate to the project directory by running cd ecommerce-product-page. Once inside the project directory, install the required dependencies by executing npm install or yarn install, depending on your package manager preference. After the dependencies are installed, start the development server using npm run dev or yarn dev. Finally, open your browser and go to http://localhost:3000 to view the project.
 
 Features
  - Hero Section: Displays the product image, name, price, and a brief description.
@@ -48,6 +50,7 @@ Components
  - Navbar.js: Site navigation.
  - ProductCards.js: Displays product information in a card format.
  - ProductDetails.js: Shows detailed product information.
+ - Dataprovider.js: Context component providing data to all pages and components
    
 Pages
  - Homepage (src/app/page.js): Displays hero section, detailed product information, user reviews, and recommended products.
