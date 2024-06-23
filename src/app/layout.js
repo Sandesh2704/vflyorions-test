@@ -16,10 +16,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Dataprovider>
+        <Dataprovider >
+          <div  className='bg-slate-100'>
           <Navbar />
           {children}
           <Footer/>
+          </div>
         </Dataprovider>
       </body>
     </html>

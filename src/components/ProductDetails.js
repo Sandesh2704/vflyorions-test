@@ -37,10 +37,13 @@ export default function ProductDetails({ item }) {
     };
     return (
         <>
-            <div className="px-3 md:px-12 lg:px-36 grid grid-cols-1 lg:grid-cols-2 gap-3 my-10">
+        <div className='px-3 md:px-12 lg:px-36 my-6 md:my-8'>
+
+        
+            <div className=" grid grid-cols-1 bg-white lg:grid-cols-2 gap-3 bg-white ">
 
                 <div className='flex- flex-col'>
-                    <div className='flex justify-center'>
+                    <div className='flex justify-center py-2'>
                         <Image src={image} alt={name} width={300} height={300} className=' max-w-[64%] md:max-w-[45%] lg:max-w-[60%]  min-w-[64%] md:min-w-[45%] lg:min-w-[60%] h-auto ' priority />
                     </div>
 
@@ -65,7 +68,7 @@ export default function ProductDetails({ item }) {
                 </div>
 
                 <div>
-                    <div className='py-1 pb-2 md:pb-2 border-b-2 border-gray-300 px-2'>
+                    <div className='py-2 pb-2 md:pb-2 border-b-2 border-gray-300 px-2'>
                         <h1 className='text-xl  lg:text-2xl font-semibold '>{name}</h1>
                         <div className="flex items-center my-1">
                             <div className="flex items-center space-x-1 rtl:space-x-reverse">
@@ -159,6 +162,7 @@ export default function ProductDetails({ item }) {
                         </form>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     )
