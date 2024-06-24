@@ -51,7 +51,7 @@ export default function Navbar() {
           <Image src={item.image} height={300} width={200} className='h-auto w-auto' priority alt={item.image}/>
           </div>
     
-        <p className='text-xs md:text-sm  font-semibold text-center hover:text-blue-700'>{item.title}</p>
+        <Link href='/' className='text-xs md:text-sm  font-semibold text-center hover:text-blue-700'>{item.title}</Link>
         </div>
       ))}
     </div>

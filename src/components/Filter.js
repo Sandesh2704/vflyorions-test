@@ -11,12 +11,14 @@ export default function Filter() {
         setIsOpen(!isOpen);
     };
 
+
+
     return (
         <>
             <div className='w-full h-fit border bg-white  shadow'>
                 <div className='border-b-2 border-gray-200  flex justify-between items-center  p-3' >
-                    <h1 className='text-xl font-medium'> Filter</h1>
-                    <FaChevronDown className={ `flex lg:hidden ${isOpen ? 'rotate-180' : 'rotate-0'}`} onClick={toggleAccordion}/>
+                    <h1 className='text-lg md:text-xl font-medium'> Filter</h1>
+                    <FaChevronDown className={ `h-4  w-4 flex lg:hidden ${isOpen ? 'rotate-180' : 'rotate-0'}`} onClick={toggleAccordion}/>
                 </div>
                 <div className={`transition-max-height duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-fit' : 'max-h-0'} lg:max-h-full md:block`}>
 

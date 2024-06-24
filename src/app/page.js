@@ -2,7 +2,6 @@
 import ProductCards from "../components/ProductCards";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useCart } from "src/context/Dataprovider";
 import Filter from "@/components/Filter";
 
 

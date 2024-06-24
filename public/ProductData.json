@@ -1,4 +1,3 @@
-
 [
   {
     "id": 1,
@@ -150,226 +149,435 @@
       }
     ]
   },
-    {
-      "id": 6,
-      "name": "Smartphone",
-      "price": 699.99,
-      "Productrating": 5,
-      "description": "Stay connected and productive with our latest Smartphone. Featuring a sleek design and cutting-edge technology, this smartphone offers a vibrant AMOLED display and a powerful processor for seamless multitasking. Capture stunning photos with its high-resolution camera and enjoy all-day battery life. With advanced security features and fast charging capabilities, our Smartphone is perfect for work and play.",
-      "image": "/Productimage/mobile.webp",
-      "specifications": {
-        "display": "AMOLED",
-        "processor": "Octa-core",
-        "camera": "High-resolution",
-        "batteryLife": "All-day",
-        "color": "Various"
-      },
-      "features": [
-        "Sleek design",
-        "High-resolution display",
-        "Advanced security features"
-      ],
-      "reviews": [
-        {
-          "user": "Alexandra Brown",
-          "rating": 5,
-          "comment": "Great phone with amazing camera quality!"
-        },
-        {
-          "user": "Michael Johnson",
-          "rating": 4,
-          "comment": "Fast and responsive, but battery could be better."
-        }
-      ]
+  {
+    "id": 6,
+    "name": "Smartphone",
+    "price": 699.99,
+    "Productrating": 5,
+    "description": "Stay connected and productive with our latest Smartphone. Featuring a sleek design and cutting-edge technology, this smartphone offers a vibrant AMOLED display and a powerful processor for seamless multitasking. Capture stunning photos with its high-resolution camera and enjoy all-day battery life. With advanced security features and fast charging capabilities, our Smartphone is perfect for work and play.",
+    "image": "/Productimage/mobile.webp",
+    "specifications": {
+      "display": "AMOLED",
+      "processor": "Octa-core",
+      "camera": "High-resolution",
+      "batteryLife": "All-day",
+      "color": "Various"
     },
-    {
-      "id": 7,
-      "name": "Fitness Tracker",
-      "price": 99.99,
-      "Productrating": 4,
-      "description": "Track your fitness goals with precision using our Fitness Tracker. Equipped with advanced sensors, this device monitors your heart rate, steps, and sleep patterns to help you stay on top of your health. Its sleek and lightweight design ensures comfort throughout the day, while the companion app provides insights and personalized recommendations. With long battery life and water resistance, the Fitness Tracker is your perfect workout companion.",
-      "image": "/Productimage/fitnesstacker.webp",
-      "specifications": {
-        "sensors": "Heart rate, accelerometer",
-        "tracking": "Steps, sleep",
-        "batteryLife": "Long-lasting",
-        "waterResistance": "Yes",
-        "color": "Various"
+    "features": [
+      "Sleek design",
+      "High-resolution display",
+      "Advanced security features"
+    ],
+    "reviews": [
+      {
+        "user": "Alexandra Brown",
+        "rating": 5,
+        "comment": "Great phone with amazing camera quality!"
       },
-      "features": [
-        "Advanced fitness tracking",
-        "Sleek design",
-        "Companion app"
-      ],
-      "reviews": [
-        {
-          "user": "Sophie Williams",
-          "rating": 4,
-          "comment": "Great for tracking workouts and sleep!"
-        },
-        {
-          "user": "David Miller",
-          "rating": 5,
-          "comment": "Accurate readings and comfortable to wear."
-        }
-      ]
+      {
+        "user": "Michael Johnson",
+        "rating": 4,
+        "comment": "Fast and responsive, but battery could be better."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Fitness Tracker",
+    "price": 99.99,
+    "Productrating": 4,
+    "description": "Track your fitness goals with precision using our Fitness Tracker. Equipped with advanced sensors, this device monitors your heart rate, steps, and sleep patterns to help you stay on top of your health. Its sleek and lightweight design ensures comfort throughout the day, while the companion app provides insights and personalized recommendations. With long battery life and water resistance, the Fitness Tracker is your perfect workout companion.",
+    "image": "/Productimage/fitnesstacker.webp",
+    "specifications": {
+      "sensors": "Heart rate, accelerometer",
+      "tracking": "Steps, sleep",
+      "batteryLife": "Long-lasting",
+      "waterResistance": "Yes",
+      "color": "Various"
     },
-    {
-      "id": 8,
-      "name": "Portable Bluetooth Speaker",
-      "price": 49.99,
-      "Productrating": 4,
-      "description": "Enjoy powerful sound wherever you go with our Portable Bluetooth Speaker. Featuring deep bass and clear highs, this speaker delivers impressive audio performance in a compact and lightweight design. Pair effortlessly with your smartphone or tablet via Bluetooth and stream your favorite music for hours on end. With a built-in microphone for hands-free calls and long-lasting battery life, it's perfect for parties, travel, and outdoor adventures.",
-      "image": "/Productimage/blutoothspeaker.webp",
-      "specifications": {
-        "connectivity": "Bluetooth",
-        "sound": "High-quality",
-        "batteryLife": "Long-lasting",
-        "color": "Various"
+    "features": [
+      "Advanced fitness tracking",
+      "Sleek design",
+      "Companion app"
+    ],
+    "reviews": [
+      {
+        "user": "Sophie Williams",
+        "rating": 4,
+        "comment": "Great for tracking workouts and sleep!"
       },
-      "features": [
-        "Portable and lightweight",
-        "Deep bass",
-        "Built-in microphone"
-      ],
-      "reviews": [
-        {
-          "user": "Emma Davis",
-          "rating": 5,
-          "comment": "Excellent sound quality for its size!"
-        },
-        {
-          "user": "Daniel Wilson",
-          "rating": 4,
-          "comment": "Great speaker, easy to connect and use."
-        }
-      ]
+      {
+        "user": "David Miller",
+        "rating": 5,
+        "comment": "Accurate readings and comfortable to wear."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Portable Bluetooth Speaker",
+    "price": 49.99,
+    "Productrating": 4,
+    "description": "Enjoy powerful sound wherever you go with our Portable Bluetooth Speaker. Featuring deep bass and clear highs, this speaker delivers impressive audio performance in a compact and lightweight design. Pair effortlessly with your smartphone or tablet via Bluetooth and stream your favorite music for hours on end. With a built-in microphone for hands-free calls and long-lasting battery life, it's perfect for parties, travel, and outdoor adventures.",
+    "image": "/Productimage/blutoothspeaker.webp",
+    "specifications": {
+      "connectivity": "Bluetooth",
+      "sound": "High-quality",
+      "batteryLife": "Long-lasting",
+      "color": "Various"
     },
-    {
-      "id": 9,
-      "name": "Digital Camera",
-      "price": 499.99,
-      "Productrating": 5,
-      "description": "Capture life's moments with clarity and precision using our Digital Camera. Equipped with a high-resolution sensor and advanced image processing technology, this camera delivers stunning photos and 4K videos. Its intuitive controls and ergonomic design ensure ease of use, while a range of shooting modes and effects allow for creative expression. With built-in Wi-Fi connectivity for instant sharing and a durable build, our Digital Camera is your perfect companion for photography enthusiasts.",
-      "image": "/Productimage/digitalcamera.webp",
-      "specifications": {
-        "resolution": "High-resolution sensor",
-        "video": "4K",
-        "connectivity": "Wi-Fi",
-        "color": "Black"
+    "features": [
+      "Portable and lightweight",
+      "Deep bass",
+      "Built-in microphone"
+    ],
+    "reviews": [
+      {
+        "user": "Emma Davis",
+        "rating": 5,
+        "comment": "Excellent sound quality for its size!"
       },
-      "features": [
-        "High-resolution photos",
-        "4K video recording",
-        "Built-in Wi-Fi"
-      ],
-      "reviews": [
-        {
-          "user": "Olivia Thompson",
-          "rating": 5,
-          "comment": "Fantastic camera, captures incredible detail!"
-        },
-        {
-          "user": "William Garcia",
-          "rating": 4,
-          "comment": "Great for both photos and videos."
-        }
-      ]
+      {
+        "user": "Daniel Wilson",
+        "rating": 4,
+        "comment": "Great speaker, easy to connect and use."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Digital Camera",
+    "price": 499.99,
+    "Productrating": 5,
+    "description": "Capture life's moments with clarity and precision using our Digital Camera. Equipped with a high-resolution sensor and advanced image processing technology, this camera delivers stunning photos and 4K videos. Its intuitive controls and ergonomic design ensure ease of use, while a range of shooting modes and effects allow for creative expression. With built-in Wi-Fi connectivity for instant sharing and a durable build, our Digital Camera is your perfect companion for photography enthusiasts.",
+    "image": "/Productimage/digitalcamera.webp",
+    "specifications": {
+      "resolution": "High-resolution sensor",
+      "video": "4K",
+      "connectivity": "Wi-Fi",
+      "color": "Black"
     },
-    {
-      "id": 10,
-      "name": "Wireless Earbuds",
-      "price": 79.99,
-      "Productrating": 5,
-      "description": "Experience wireless freedom with our Wireless Earbuds. Featuring premium sound quality and noise-canceling technology, these earbuds deliver immersive audio for music and calls. Their ergonomic design ensures a secure and comfortable fit, while touch controls allow for easy navigation and voice assistant access. With long battery life and a portable charging case, our Wireless Earbuds are your perfect companion for on-the-go listening.",
-      "image": "/Productimage/airboads.webp",
-      "specifications": {
-        "sound": "Premium quality",
-        "noiseCancellation": "Active noise-canceling",
-        "batteryLife": "Long-lasting",
-        "color": "Various"
+    "features": [
+      "High-resolution photos",
+      "4K video recording",
+      "Built-in Wi-Fi"
+    ],
+    "reviews": [
+      {
+        "user": "Olivia Thompson",
+        "rating": 5,
+        "comment": "Fantastic camera, captures incredible detail!"
       },
-      "features": [
-        "Ergonomic design",
-        "Touch controls",
-        "Portable charging case"
-      ],
-      "reviews": [
-        {
-          "user": "Jack Roberts",
-          "rating": 4,
-          "comment": "Great sound quality and comfortable fit!"
-        },
-        {
-          "user": "Sophia Martinez",
-          "rating": 5,
-          "comment": "Excellent noise cancellation, perfect for travel."
-        }
-      ]
+      {
+        "user": "William Garcia",
+        "rating": 4,
+        "comment": "Great for both photos and videos."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Wireless Earbuds",
+    "price": 79.99,
+    "Productrating": 5,
+    "description": "Experience wireless freedom with our Wireless Earbuds. Featuring premium sound quality and noise-canceling technology, these earbuds deliver immersive audio for music and calls. Their ergonomic design ensures a secure and comfortable fit, while touch controls allow for easy navigation and voice assistant access. With long battery life and a portable charging case, our Wireless Earbuds are your perfect companion for on-the-go listening.",
+    "image": "/Productimage/airboads.webp",
+    "specifications": {
+      "sound": "Premium quality",
+      "noiseCancellation": "Active noise-canceling",
+      "batteryLife": "Long-lasting",
+      "color": "Various"
     },
-    {
-      "id": 11,
-      "name": "Robot Vacuum Cleaner",
-      "price": 299.99,
-      "Productrating": 5,
-      "description": "Keep your home clean effortlessly with our Robot Vacuum Cleaner. Equipped with intelligent navigation and powerful suction, this vacuum cleans carpets, hardwood floors, and tiles with ease. Schedule cleaning sessions via your smartphone and let the robot vacuum do the work while you relax. With multiple cleaning modes, anti-drop sensors, and a slim design to reach under furniture, it's the ultimate smart home cleaning solution.",
-      "image": "/Productimage/valumcleaner.webp",
-      "specifications": {
-        "navigation": "Intelligent",
-        "suctionPower": "Powerful",
-        "cleaningModes": "Multiple",
-        "smartFeatures": "Smartphone control",
-        "color": "Various"
+    "features": [
+      "Ergonomic design",
+      "Touch controls",
+      "Portable charging case"
+    ],
+    "reviews": [
+      {
+        "user": "Jack Roberts",
+        "rating": 4,
+        "comment": "Great sound quality and comfortable fit!"
       },
-      "features": [
-        "Automated cleaning",
-        "Schedule cleaning sessions",
-        "Slim design for under furniture"
-      ],
-      "reviews": [
-        {
-          "user": "Sophie Walker",
-          "rating": 5,
-          "comment": "Makes cleaning so much easier!"
-        },
-        {
-          "user": "Jacob Brown",
-          "rating": 4,
-          "comment": "Great for keeping my floors clean daily."
-        }
-      ]
+      {
+        "user": "Sophia Martinez",
+        "rating": 5,
+        "comment": "Excellent noise cancellation, perfect for travel."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Robot Vacuum Cleaner",
+    "price": 299.99,
+    "Productrating": 5,
+    "description": "Keep your home clean effortlessly with our Robot Vacuum Cleaner. Equipped with intelligent navigation and powerful suction, this vacuum cleans carpets, hardwood floors, and tiles with ease. Schedule cleaning sessions via your smartphone and let the robot vacuum do the work while you relax. With multiple cleaning modes, anti-drop sensors, and a slim design to reach under furniture, it's the ultimate smart home cleaning solution.",
+    "image": "/Productimage/valumcleaner.webp",
+    "specifications": {
+      "navigation": "Intelligent",
+      "suctionPower": "Powerful",
+      "cleaningModes": "Multiple",
+      "smartFeatures": "Smartphone control",
+      "color": "Various"
     },
-    {
-      "id": 12,
-      "name": "Smart Watch",
-      "price": 199.99,
-      "Productrating": 4,
-      "description": "Stay connected and track your fitness goals with our Smart Watch. Featuring a vibrant touchscreen display and customizable watch faces, this smartwatch offers heart rate monitoring, GPS tracking, and notifications for calls and messages. Its water-resistant design and long battery life make it perfect for all-day wear, whether you're exercising, working, or relaxing. Sync with your smartphone for seamless integration and stay on top of your day.",
-      "image": "/Productimage/smartwatch.webp",
-      "specifications": {
-        "display": "Touchscreen",
-        "tracking": "Heart rate, GPS",
-        "notifications": "Calls, messages",
-        "batteryLife": "Long-lasting",
-        "color": "Various"
+    "features": [
+      "Automated cleaning",
+      "Schedule cleaning sessions",
+      "Slim design for under furniture"
+    ],
+    "reviews": [
+      {
+        "user": "Sophie Walker",
+        "rating": 5,
+        "comment": "Makes cleaning so much easier!"
       },
-      "features": [
-        "Fitness tracking",
-        "Customizable watch faces",
-        "Water-resistant design"
-      ],
-      "reviews": [
-        {
-          "user": "Lucas Scott",
-          "rating": 5,
-          "comment": "Great smartwatch, accurate tracking!"
-        },
-        {
-          "user": "Emma White",
-          "rating": 4,
-          "comment": "Very stylish and functional."
-        }
-      ]
-    }
-  ]
-
+      {
+        "user": "Jacob Brown",
+        "rating": 4,
+        "comment": "Great for keeping my floors clean daily."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Smart Watch",
+    "price": 199.99,
+    "Productrating": 4,
+    "description": "Stay connected and track your fitness goals with our Smart Watch. Featuring a vibrant touchscreen display and customizable watch faces, this smartwatch offers heart rate monitoring, GPS tracking, and notifications for calls and messages. Its water-resistant design and long battery life make it perfect for all-day wear, whether you're exercising, working, or relaxing. Sync with your smartphone for seamless integration and stay on top of your day.",
+    "image": "/Productimage/smartwatch.webp",
+    "specifications": {
+      "display": "Touchscreen",
+      "tracking": "Heart rate, GPS",
+      "notifications": "Calls, messages",
+      "batteryLife": "Long-lasting",
+      "color": "Various"
+    },
+    "features": [
+      "Fitness tracking",
+      "Customizable watch faces",
+      "Water-resistant design"
+    ],
+    "reviews": [
+      {
+        "user": "Lucas Scott",
+        "rating": 5,
+        "comment": "Great smartwatch, accurate tracking!"
+      },
+      {
+        "user": "Emma White",
+        "rating": 4,
+        "comment": "Very stylish and functional."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Smart Home Hub",
+    "price": 129.99,
+    "Productrating": 4,
+    "description": "Control all your smart home devices with ease using our Smart Home Hub. Featuring voice control and compatibility with a wide range of smart devices, it streamlines your home automation. The sleek design fits seamlessly into any room, providing a centralized control point for lighting, security, and entertainment systems.",
+    "image": "/Productimage/smarthomehub.jpg",
+    "specifications": {
+      "compatibility": "Multiple devices",
+      "connectivity": "Wi-Fi, Bluetooth",
+      "color": "White"
+    },
+    "features": [
+      "Voice control",
+      "Wide compatibility",
+      "Easy setup"
+    ],
+    "reviews": [
+      {
+        "user": "Anna Johnson",
+        "rating": 4,
+        "comment": "Very convenient for controlling all my smart devices."
+      },
+      {
+        "user": "Mark Davis",
+        "rating": 5,
+        "comment": "Makes home automation so easy!"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "4K Action Camera",
+    "price": 249.99,
+    "Productrating": 5,
+    "description": "Capture every adventure in stunning detail with our 4K Action Camera. Waterproof and rugged, it’s perfect for extreme sports and outdoor activities. With high-resolution video and image stabilization, your footage will always be crisp and clear. Includes multiple mounting options and a variety of shooting modes.",
+    "image": "/Productimage/actioncamera.webp",
+    "specifications": {
+      "resolution": "4K",
+      "waterproof": "Yes",
+      "color": "Black"
+    },
+    "features": [
+      "High-resolution video",
+      "Rugged and waterproof",
+      "Image stabilization"
+    ],
+    "reviews": [
+      {
+        "user": "John Smith",
+        "rating": 5,
+        "comment": "Fantastic camera for capturing all my outdoor activities."
+      },
+      {
+        "user": "Lisa Brown",
+        "rating": 4,
+        "comment": "Great quality, very durable."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Noise-Canceling Headphones",
+    "price": 199.99,
+    "Productrating": 5,
+    "description": "Immerse yourself in music with our Noise-Canceling Headphones. Featuring advanced noise cancellation technology, these headphones block out background noise, delivering clear, high-fidelity sound. The comfortable, over-ear design and long battery life make them perfect for travel and everyday use.",
+    "image": "/Productimage/noisecancelingheadphones.jpg",
+    "specifications": {
+      "noiseCancellation": "Active",
+      "batteryLife": "30 hours",
+      "color": "Black"
+    },
+    "features": [
+      "Advanced noise cancellation",
+      "High-fidelity sound",
+      "Long battery life"
+    ],
+    "reviews": [
+      {
+        "user": "James Wilson",
+        "rating": 5,
+        "comment": "Excellent noise cancellation, perfect for flights."
+      },
+      {
+        "user": "Mary Taylor",
+        "rating": 4,
+        "comment": "Very comfortable and great sound quality."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Electric Scooter",
+    "price": 399.99,
+    "Productrating": 4,
+    "description": "Zip around town with our Electric Scooter. Featuring a powerful motor and long-lasting battery, it provides a smooth and efficient ride. The foldable design makes it easy to carry and store, while the LED display keeps you informed about speed and battery life.",
+    "image": "/Productimage/electricscooter.jpg",
+    "specifications": {
+      "motor": "350W",
+      "range": "25 miles",
+      "color": "Black"
+    },
+    "features": [
+      "Powerful motor",
+      "Foldable design",
+      "LED display"
+    ],
+    "reviews": [
+      {
+        "user": "Chris Lee",
+        "rating": 4,
+        "comment": "Great scooter, very convenient for short commutes."
+      },
+      {
+        "user": "Sarah Kim",
+        "rating": 5,
+        "comment": "Easy to ride and very portable."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Smart Thermostat",
+    "price": 149.99,
+    "Productrating": 4,
+    "description": "Save energy and stay comfortable with our Smart Thermostat. Program and control your home’s temperature from your smartphone, ensuring it’s always at the perfect setting. The sleek design fits any home decor, and the intuitive interface makes it easy to use.",
+    "image": "/Productimage/smartthermostat.jpg",
+    "specifications": {
+      "connectivity": "Wi-Fi",
+      "compatibility": "Alexa, Google Assistant",
+      "color": "White"
+    },
+    "features": [
+      "Energy-saving",
+      "Remote control",
+      "Easy installation"
+    ],
+    "reviews": [
+      {
+        "user": "Daniel Moore",
+        "rating": 4,
+        "comment": "Works great and has helped reduce my energy bills."
+      },
+      {
+        "user": "Jessica Brown",
+        "rating": 5,
+        "comment": "Very user-friendly and convenient."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Wireless Charger",
+    "price": 39.99,
+    "Productrating": 4,
+    "description": "Keep your devices powered up with our Wireless Charger. Compatible with all Qi-enabled devices, it offers fast and efficient charging. The sleek, compact design fits easily on any desk or nightstand, and the LED indicator lets you know when your device is charging.",
+    "image": "/Productimage/wirelesscharger.jpg",
+    "specifications": {
+      "compatibility": "Qi-enabled devices",
+      "chargingSpeed": "Fast",
+      "color": "Black"
+    },
+    "features": [
+      "Fast charging",
+      "Compact design",
+      "LED indicator"
+    ],
+    "reviews": [
+      {
+        "user": "Kevin Adams",
+        "rating": 4,
+        "comment": "Charges my phone quickly, very convenient."
+      },
+      {
+        "user": "Laura White",
+        "rating": 5,
+        "comment": "Great charger, works perfectly with my devices."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Portable Bluetooth Speaker",
+    "price": 59.99,
+    "Productrating": 5,
+    "description": "Enjoy your music on the go with our Portable Bluetooth Speaker. With high-quality sound, long battery life, and a durable design, it's perfect for any occasion. The compact size makes it easy to carry, and it pairs effortlessly with any Bluetooth-enabled device.",
+    "image": "/Productimage/bluetoothspeaker.jpg",
+    "specifications": {
+      "batteryLife": "12 hours",
+      "connectivity": "Bluetooth",
+      "color": "Blue"
+    },
+    "features": [
+      "High-quality sound",
+      "Long battery life",
+      "Compact and portable"
+    ],
+    "reviews": [
+      {
+        "user": "David Lee",
+        "rating": 5,
+        "comment": "Fantastic sound quality and very portable."
+      },
+      {
+        "user": "Sophia Martinez",
+        "rating": 4,
+        "comment": "Great speaker for the price, easy to carry around."
+      }
+    ]
+  }
+]

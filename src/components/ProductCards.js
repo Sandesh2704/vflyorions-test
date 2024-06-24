@@ -36,7 +36,7 @@ export default function ProductCards({ item }) {
         <>
             <div className="w-full h-full border bg-white  shadow ">
                 <Link href={`/products/${id}`} className='flex justify-center w-full   max-h-52 md:max-h-64 lg:max-h-80 min-h-52 md:min-h-64 lg:min-h-80 items-center'>
-                    <Image src={image} alt="productimage" width={400} height={400} className=' max-h-52 md:max-h-64 lg:max-h-80  rounded-t-lg  p-4' />
+                    <Image src={image} alt={name} width={400} height={400} className=' max-h-52 md:max-h-64 lg:max-h-80  rounded-t-lg  p-4' />
                 </Link>
                 <div className="px-2 md:px-2 lg:px-3 py-3 ">
                     <Link href={`/products/${id}`} className='hover:underline underline-offset-4'>
