@@ -1,41 +1,113 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.categories {
+/* .categories {
   overflow: scroll;
-  scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+
+/* .categories::-webkit-scrollbar {
+  display: none;
+} */
+
+:root {
+  --background: white;
+  --foreground: black;
+  --primary: #03032c;
+--secondary: rgb(17, 51, 219);
+--tertiary: rgba(31, 209, 253, 0.6);
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --foreground: white;
+}
+
+.categories{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none;
+  scrollbar-color: rgb(210, 210, 210) white; 
+  -ms-overflow-style: none;
 }
 
 .categories::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Opera */
-}
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@media only screen and (max-width:768px) {
+  .categories{
+
+    scrollbar-width:thin;
+  } 
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+/* .categories::-webkit-scrollbar-track {
+  border-radius: 5px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.categories::-webkit-scrollbar-thumb {
+  border-radius: 14px;
+}
+
+.categories::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tertiary);
 } */
+
+
+
+/* .categories {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width:thin; 
+  scrollbar-color: rgb(201, 201, 201) rgb(255, 255, 255); 
+}
+
+
+.categories::-webkit-scrollbar {
+  width: 3px;
+}
+
+.categories::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
+
+.categories::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+.categories::-webkit-scrollbar-button {
+  display: none;
+} */
+
+/* .categories {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width:thin; 
+   scrollbar-color: rgb(201, 201, 201) rgb(255, 255, 255); 
+}
+
+.categories::-webkit-scrollbar {
+  width: 100px;
+  height: 3px; 
+}
+
+.categories::-webkit-scrollbar-thumb {
+  height: 20px ;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.categories::-webkit-scrollbar-button {
+  background-color: pink;
+  color: white;
+  display: none;
+} */
+

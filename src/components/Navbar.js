@@ -23,15 +23,14 @@ export default function Navbar() {
   const Categories = [
     {title: 'Electronics',  image: electronic},
     {title: 'Books',  image: books},
-    // {title: 'Furniture',  image: furniture},
+    {title: 'Furniture',  image: furniture},
     {title: 'Fashion',  image: fashionmodels},
     {title: 'Pet Supplies',  image: petsupplies},
-    // {title: 'Sports',  image: sports},
+    {title: 'Sports',  image: sports},
     {title: 'Baby Products',  image: toy },
     {title: 'Personal Care',  image: personalcare },
     {title: 'Traval',  image: traval},
     {title: 'Music Instruments',  image: guiter},
-    {title: 'Footwear',  image: footwaer}
   ];
 
 
@@ -44,15 +43,21 @@ export default function Navbar() {
         Cart  <span>{countCart === 0 ? '' : countCart } </span>
       </Link>
     </nav>
-
-    <nav className='categories py-2 px-3 lg:px-36 flex gap-2 md:gap-5 bg-white m-2 lg:m-3 overflow-scroll'>
+<nav className='bg-white m-2 lg:m-3'>
+<div className='categories py-2 mx-2 lg:mx-36 flex gap-2 md:gap-5'>
       {Categories.map((item, index) => (
-        <div key={index} className='flex flex-col px-2 md:px-3 lg:px-5 py-2 items-center '>
-        <Image src={item.image} height={300} width={200} className='h-12 w-12 md:h-16 md:w-16 lg:w-20 mb-2 md:mb-3' priority alt={item.image}/>
-        <p className='text-xs md:text-sm lg:text-base font-semibold text-center hover:text-blue-700'>{item.title}</p>
+        <div key={index} className='flex  px-1 md:px-3 lg:px-3 flex-col  py-2 items-center '>
+          <div className='h-12 w-12 md:h-16 md:w-16 lg:fit  mb-2 md:mb-2 flex items-center'>
+          <Image src={item.image} height={300} width={200} className='h-auto w-auto' priority alt={item.image}/>
+          </div>
+    
+        <p className='text-xs md:text-sm  font-semibold text-center hover:text-blue-700'>{item.title}</p>
         </div>
       ))}
-    </nav>
+    </div>
+
+</nav>
+   
     </>
    
   )
