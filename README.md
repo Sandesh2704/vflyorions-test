@@ -20,6 +20,7 @@ vflyorions-test/
 │   │   ├── layout.js
 │   │   ├── page.js
 │   ├── components/
+│   │   ├── AddSection.js
 │   │   ├── Footer.js
 │   │   ├── Navbar.js
 │   │   ├── ProductCards.js
@@ -55,6 +56,7 @@ Components
  - ProductDetails.js: Shows detailed product information.
  - Dataprovider.js: Context component providing data to all pages and components
  - Filter Component: Allows users to refine product data based on specific criteria.
+ - AddSection: Enhances a webpage section by integrating a Slick Carousel, allowing for dynamic and visually appealing display of content or images that rotate or slide through the section, enriching user engagement and presentation.
    
 Pages
  - Homepage (src/app/page.js): Displays hero section, detailed product information, user reviews, and recommended products.
