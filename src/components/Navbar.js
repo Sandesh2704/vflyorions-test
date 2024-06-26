@@ -36,14 +36,14 @@ export default function Navbar() {
 
   return (
     <>
-     <nav className='flex sticky top-0 items-center justify-between py-2 px-3 lg:px-36 bg-purple-950 text-white  shadow'>
-      <Link href='/' className='text-2xl md:text-3xl lg:text-3xl font-medium'>EliteShop</Link>
+     <nav className='flex sticky z-50 top-0 items-center justify-between py-2 px-3 lg:px-36 bg-purple-950 text-white  shadow'>
+      <Link href='/' className='text-2xl md:text-3xl font-medium'>EliteShop</Link>
       <Link href='/cartitem' className='flex items-center gap-2 md:gap-3 bg-yellow-500 py-2 lg:py-2 px-3 lg:px-6 rounded-xl text-base md:text-lg lg:text-lg font-medium'>
         <MdShoppingCart />
         Cart  <span>{countCart === 0 ? '' : countCart } </span>
       </Link>
     </nav>
-<nav className='bg-white m-2 lg:m-3'>
+<nav className='bg-white my-1 mx-2 md:my-2 md:mx-3'>
 <div className='categories py-2 mx-2 lg:mx-36 flex gap-2 md:gap-5'>
       {Categories.map((item, index) => (
         <div key={index} className='flex  px-1 md:px-3 lg:px-3 flex-col  py-2 items-center '>

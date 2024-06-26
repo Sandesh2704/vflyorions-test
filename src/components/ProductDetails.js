@@ -11,7 +11,7 @@ export default function ProductDetails({ item }) {
 
     const maxRating = 5;
     console.log('hi its ', item)
-    const { id, specifications, features, reviews, description, price, name, Productrating, image } = item;
+    const { id, specifications, features, reviews, description, price, name, Productrating, image, } = item;
     const { cart, setCart, setCountCart, countCart, isInCart, setIsInCart } = useCart();
 
     const addToCart = () => {
