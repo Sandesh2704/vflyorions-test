@@ -3,6 +3,8 @@ file - structure
 vflyorions-test/
 |- node_modules/
 ├── public/
+│   ├── Categories/
+│   │   ├── All categories images
 │   ├── Productimage/
 │   │   ├── All product images
 │   ├── ProductData.json
@@ -22,6 +24,7 @@ vflyorions-test/
 │   │   ├── Navbar.js
 │   │   ├── ProductCards.js
 │   │   ├── ProductDetails.js
+│   │   ├── Filter.js
 │   ├── context/
 │   │   └── Dataprovider.js
 ├── package.json
@@ -46,11 +49,12 @@ Features
  - Add to Cart and Remove from Cart Buttons: For managing items in the cart.
 
 Components
- - Footer.js: Footer section of the page.
+ - Footer.js: Enhanced with a sub-navigation bar for category navigation.
  - Navbar.js: Site navigation.
  - ProductCards.js: Displays product information in a card format.
  - ProductDetails.js: Shows detailed product information.
  - Dataprovider.js: Context component providing data to all pages and components
+ - Filter Component: Allows users to refine product data based on specific criteria.
    
 Pages
  - Homepage (src/app/page.js): Displays hero section, detailed product information, user reviews, and recommended products.
